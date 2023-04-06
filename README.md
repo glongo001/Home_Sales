@@ -32,11 +32,9 @@
 6. What is the "view" rating for homes costing more than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places.
     - I calculated the average price of homes with a value of $350,000 or more, grouped by view rating, and rounded to two decimal places with ROUND(AVG(`price`),2).
     - The results showed that for the houses with less than 20 view ratings the price average was about $400,000.
-
-![alt text](https://github.com/glongo001/Home_Sales/blob/main/Images/6_view_350000price.png)
-
     - The results showed that for the houses with more than 20 view ratings the price average was about $1,000,000.
 
+![alt text](https://github.com/glongo001/Home_Sales/blob/main/Images/6_view_350000price.png)
 ![alt text](https://github.com/glongo001/Home_Sales/blob/main/Images/6_2_view_350000price.png)
 
 7. I cached the temporary table `home_sales` and used `isCached()` to check that the table was cached.
