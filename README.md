@@ -1,4 +1,4 @@
-# Unit 22 Homework: Home_Sales
+# Home Sales
  I used SparkSQL to analyze home sales data. I used Spark to create temporary views, partition the data, cache and uncache tables.
 
 ## The Process
